@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MediCare Hospital</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="MediCare home">
+  <i class="fa-solid fa-heart-pulse brand-icon"></i>
+  <span class="brand-text">MediCare</span>
+</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" 
+      aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
+        <li class="nav-item"><a class="nav-link" href="#appointments">Appointments</a></li>
+        <li class="nav-item"><a class="nav-link" href="#patients">Patients</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-2 ms-lg-3"><a class="btn btn-cta" href="#appointments">Book</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-overlay">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+
+        <div class="col-lg-7 col-md-8" data-aos="fade-right">
+          <h1 class="hero-title">Compassionate care, advanced treatment.</h1>
+          <p class="lead hero-sub">MediCare Hospital provides complete, patient-focused care using modern technology and trusted experts.</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a class="btn btn-cta btn-lg" href="#appointments">Book Appointment</a>
+            <a class="btn btn-outline-white btn-lg" href="#services">Our Services</a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="py-5 bg-white">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <!-- Left content -->
+      <div class="col-lg-6 col-md-12" data-aos="fade-up">
+        <h2 class="section-title">About MediCare</h2>
+        <p class="text-muted mb-4">
+          MediCare is dedicated to providing high-quality, compassionate care. Our multidisciplinary team supports patients throughout diagnosis, treatment, and recovery.
+        </p>
+        <ul class="text-muted ps-3 mb-0">
+          <li class="mb-2">Patient-first approach</li>
+          <li class="mb-2">Advanced diagnostics & modern facilities</li>
+          <li>24/7 emergency response with rapid care</li>
+        </ul>
+      </div>
+
+      <!-- Right stats -->
+      <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="80">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <div class="stat-card p-3 rounded shadow-sm text-center bg-white h-100">
+              <h5 class="mb-0">24/7</h5>
+              <small class="text-muted">Emergency Care</small>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="stat-card p-3 rounded shadow-sm text-center bg-white h-100">
+              <h5 class="mb-0">150+</h5>
+              <small class="text-muted">Expert Doctors</small>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="stat-card p-3 rounded shadow-sm text-center bg-white h-100">
+              <h5 class="mb-0">50K+</h5>
+              <small class="text-muted">Patients Served</small>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="stat-card p-3 rounded shadow-sm text-center bg-white h-100">
+              <h5 class="mb-0">12</h5>
+              <small class="text-muted">Specialized Departments</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="doctors" class="py-5 bg-white">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="section-title mb-0">Our Doctors</h3>
+      <p class="text-muted small mb-0">Experienced & friendly specialists</p>
+    </div>
+     <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/bilalahmed2.jpg" class="card-img-top" alt="Dr. Aisha Khan">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr.Bilal Ahmed</h5>
+            <small class="text-muted d-block">Cardiology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Compassionate care for heart health with 30+ years of experience.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Aisha Khan" data-dept="Cardiology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/farahiqbal.jpg" class="card-img-top" alt="Dr. Farah Iqbal">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Farah Iqbal</h5>
+            <small class="text-muted d-block">Dermatology — DDV</small>
+            <p class="text-muted small mt-2 mb-3">Helps patients achieve healthy, glowing skin through advanced treatments.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Farah Iqbal" data-dept="Dermatology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/mariaali.jpg" class="card-img-top" alt="Dr. Maria Ali">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Maria Ali</h5>
+            <small class="text-muted d-block">Pediatrics — MBBS</small>
+            <p class="text-muted small mt-2 mb-3">Dedicated to nurturing children’s health with a gentle, caring approach.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Maria Ali" data-dept="Pediatrics">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/nazishkhan.jpg" class="card-img-top" alt="Dr. Nazish Khan">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Nazish Khan</h5>
+            <small class="text-muted d-block">Psychiatry — MD</small>
+            <p class="text-muted small mt-2 mb-3">Supports mental wellness through evidence-based, compassionate therapy.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Nazish Khan" data-dept="Psychiatry">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/omarsiddiqui.webp" class="card-img-top" alt="Dr. Omar Siddiqui">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Omar Siddiqui</h5>
+            <small class="text-muted d-block">Orthopedics — MS</small>
+            <p class="text-muted small mt-2 mb-3">Specializes in joint reconstruction and sports injury recovery.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Omar Siddiqui" data-dept="Orthopedics">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/asmarafiq.jpg" class="card-img-top" alt="Dr. Asma Rafiq">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Asma Rafiq</h5>
+            <small class="text-muted d-block">Gynecology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Committed to women’s health, wellness, and reproductive care.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Asma Rafiq" data-dept="Gynecology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/aishakhan.png" class="card-img-top" alt="Dr.Aisha Khan">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Aisha Khan</h5>
+            <small class="text-muted d-block">ENT — MS</small>
+            <p class="text-muted small mt-2 mb-3">Specializes in ear, nose, and throat conditions for all ages.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Bilal Ahmed" data-dept="ENT">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/sanamir.webp" class="card-img-top" alt="Dr. Sana Mir">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Sana Mir</h5>
+            <small class="text-muted d-block">Oncology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Provides personalized cancer care with empathy and precision.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Sana Mir" data-dept="Oncology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/hamidraza.jpg" class="card-img-top" alt="Dr. Hamid Raza">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Hamid Raza</h5>
+            <small class="text-muted d-block">Urology — MS</small>
+            <p class="text-muted small mt-2 mb-3">Expert in men’s and women’s urinary and reproductive health.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Hamid Raza" data-dept="Urology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/sameerkhan.jpg" class="card-img-top" alt="Dr. Sameer Khan">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Sameer Khan</h5>
+            <small class="text-muted d-block">Neurology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Expert in diagnosing and treating complex neurological disorders.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Sameer Khan" data-dept="Neurology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/rizwanali.jpg" class="card-img-top" alt="Dr. Rizwan Ali">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Rizwan Ali</h5>
+            <small class="text-muted d-block">Gastroenterology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Specializes in digestive health and minimally invasive procedures.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Rizwan Ali" data-dept="Gastroenterology">Book</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="card card-doctor h-100 shadow-sm border-0">
+          <img src="images/lailasheikh.jpg" class="card-img-top" alt="Dr. Laila Sheikh">
+          <div class="card-body text-center p-3">
+            <h5 class="card-title mb-1">Dr. Laila Sheikh</h5>
+            <small class="text-muted d-block">Endocrinology — MD</small>
+            <p class="text-muted small mt-2 mb-3">Manages hormonal disorders including diabetes and thyroid.</p>
+            <button class="btn btn-cta btn-sm w-100 book-btn" data-doctor="Dr. Laila Sheikh" data-dept="Endocrinology">Book</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="appointments" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-7" data-aos="fade-up">
+        <h3 class="section-title">Book an Appointment</h3>
+        <p class="text-muted">Fill the form and our staff will contact you to confirm.</p>
+
+        <form id="apptForm" class="row g-3 mt-2 needs-validation" novalidate>
+          <div class="col-md-6">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input id="fullName" type="text" class="form-control" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="emailA" class="form-label">Email</label>
+            <input id="emailA" type="email" class="form-control" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="phoneA" class="form-label">Phone</label>
+            <input id="phoneA" type="tel" class="form-control" required>
+            <div class="invalid-feedback">Please enter your phone number.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="dateA" class="form-label">Preferred Date</label>
+            <input id="dateA" type="date" class="form-control" required>
+            <div class="invalid-feedback">Please select a date.</div>
+          </div>
+          <div class="col-12">
+            <label for="departmentA" class="form-label">Department</label>
+            <select id="departmentA" class="form-select" required>
+              <option value="">Select a department</option>
+              <option>Cardiology</option>
+              <option>Orthopedics</option>
+              <option>Pediatrics</option>
+              <option>General Medicine</option>
+              <option>Dermatology</option>
+              <option>Neurology</option>
+              <option>Gynecology</option>
+              <option>ENT</option>
+              <option>Oncology</option>
+              <option>Psychiatry</option>
+            </select>
+            <div class="invalid-feedback">Please select a department.</div>
+          </div>
+          <div class="col-12 d-flex flex-wrap gap-2">
+            <button class="btn btn-cta" type="submit">Submit Request</button>
+          </div>
+        </form>
+      </div>
+
+      <aside class="col-lg-5" data-aos="fade-left">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <h5 class="mb-3" style="color: var(--teal);">Why Choose MediCare?</h5>
+            <ul class="text-muted mb-0 ps-3">
+              <li class="mb-2">24/7 emergency & critical care</li>
+              <li class="mb-2">Board-certified specialist doctors</li>
+              <li class="mb-2">Patient-first, compassionate approach</li>
+              <li>Advanced diagnostics & digital health records</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="patients" class="py-5 bg-white">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="section-title mb-0">Patient Records</h3>
+      <p class="text-muted small mb-0">Confidential • Internal use only</p>
+    </div>
+
+    <div class="table-responsive shadow-sm rounded">
+      <table class="table table-hover align-middle mb-0">
+        <thead>
+          <tr style="background-color: var(--teal); color: white;">
+            <th class="fw-bold py-3">#</th>
+            <th class="fw-bold py-3">Patient ID</th>
+            <th class="fw-bold py-3">Name</th>
+            <th class="fw-bold py-3">Age</th>
+            <th class="fw-bold py-3">Gender</th>
+            <th class="fw-bold py-3">Department</th>
+            <th class="fw-bold py-3">Admission</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>PAT-1001</td>
+            <td>Ali Raza</td>
+            <td>45</td>
+            <td>Male</td>
+            <td>Cardiology</td>
+            <td>2025-09-22</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>PAT-1002</td>
+            <td>Sana Ahmed</td>
+            <td>32</td>
+            <td>Female</td>
+            <td>Orthopedics</td>
+            <td>2025-10-01</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>PAT-1003</td>
+            <td>Hassan Khan</td>
+            <td>60</td>
+            <td>Male</td>
+            <td>General Medicine</td>
+            <td>2025-10-05</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>PAT-1004</td>
+            <td>Fatima Noor</td>
+            <td>5</td>
+            <td>Female</td>
+            <td>Pediatrics</td>
+            <td>2025-10-07</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>PAT-1005</td>
+            <td>Zain Malik</td>
+            <td>27</td>
+            <td>Male</td>
+            <td>Dermatology</td>
+            <td>2025-10-08</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-5 bg-white">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="section-title mb-0">Our Services</h3>
+      <p class="text-muted small mb-0">Comprehensive care across specialties</p>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-heart-pulse-fill"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Cardiology</h6>
+          <p class="text-muted small mb-0">Advanced heart and vascular care.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-bandaid-fill"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Orthopedics</h6>
+          <p class="text-muted small mb-0">Bone, joint, and sports injury care.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-truck-flatbed"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Emergency Care</h6>
+          <p class="text-muted small mb-0">24/7 rapid-response emergency services.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-people"></i>
+          </div>
+          <h6 class="fw-bold mb-2">General Medicine</h6>
+          <p class="text-muted small mb-0">Primary care for all ages and conditions.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi bi-file-medical"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Neurology</h6>
+          <p class="text-muted small mb-0">Expert care for brain and nerve disorders.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="250">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-eyedropper"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Laboratory</h6>
+          <p class="text-muted small mb-0">Accurate and fast diagnostic testing.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi-file-earmark-medical"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Radiology</h6>
+          <p class="text-muted small mb-0">Advanced imaging: X-ray, CT, MRI.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="350">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-capsule"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Pharmacy</h6>
+          <p class="text-muted small mb-0">On-site medicine dispensing & delivery.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-gender-female"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Maternity Care</h6>
+          <p class="text-muted small mb-0">Prenatal to postnatal mother & baby care.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="450">
+        <div class="service-card p-4 bg-white rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
+          <div class="fs-2 mb-3" style="color: var(--teal);">
+            <i class="bi bi-person-walking"></i>
+          </div>
+          <h6 class="fw-bold mb-2">Rehabilitation</h6>
+          <p class="text-muted small mb-0">Personalized physical therapy programs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h3 class="section-title text-center mb-4">Contact Us</h3>
+    <div class="row g-4">
+     <div class="col-md-6" data-aos="fade-up">
+  <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+
+    <div>
+      <h5 class="fw-bold mb-3" style="color: var(--teal);">Get in Touch</h5>
+      <ul class="list-unstyled text-muted mb-4">
+        <li class="mb-2 d-flex align-items-start">
+          <i class="bi bi-geo-alt me-2 mt-1" style="color: var(--teal);"></i>
+          <span>123 MediCare, Lahore, Pakistan</span>
+        </li>
+        <li class="mb-2 d-flex align-items-start">
+          <i class="bi bi-envelope me-2 mt-1" style="color: var(--teal);"></i>
+          <a href="mailto:info@medicare.example" class="text-muted text-decoration-none">info@medicare.example</a>
+        </li>
+        <li class="mb-2 d-flex align-items-start">
+          <i class="bi bi-telephone me-2 mt-1" style="color: var(--teal);"></i>
+          <a href="tel:+923001234567" class="text-muted text-decoration-none">+92 300 1234567</a>
+        </li>
+      </ul>
+
+      <h5 class="fw-bold mb-2" style="color: var(--teal);">Hours of Operation</h5>
+      <p class="mb-0" style="font-size: 1rem; line-height: 1.6;">
+        <strong>Monday - Friday:</strong> 8:00 AM - 2:00 AM<br>
+        <strong>Saturday - Sunday:</strong> 9:00 AM - 12:00 AM<br>
+        <strong>Emergency Services:</strong> 24/7
+      </p>
+    </div>
+
+<div class="mt-4 pt-3 ">
+  <h5 class="fw-bold mb-2" style="color: var(--teal);">Follow Us</h5>
+  <div class="d-flex gap-3">
+    <a href="#" class="text-muted" aria-label="Facebook">
+      <i class="bi bi-facebook fs-4"></i>
+    </a>
+    <a href="#" class="text-muted" aria-label="Twitter">
+      <i class="bi bi-twitter fs-4"></i>
+    </a>
+    <a href="#" class="text-muted" aria-label="Instagram">
+      <i class="bi bi-instagram fs-4"></i>
+    </a>
+    <a href="#" class="text-muted" aria-label="LinkedIn">
+      <i class="bi bi-linkedin fs-4"></i>
+    </a>
+  </div>
+</div>
+
+    <div class="mt-auto pt-3 border-top">
+      <p class="text-muted small fst-italic mb-0" style="font-size: 0.95rem;">
+        “Your health is our priority — compassionate care, always.”
+      </p>
+    </div>
+  </div>
+</div>
+
+      <div class="col-md-6" data-aos="fade-left">
+        <form id="contactForm" class="card border-0 shadow-sm h-100 p-4 needs-validation" novalidate>
+          <h6 class="fw-bold mb-3" style="color: var(--teal);">Send a Message</h6>
+          <div class="mb-3">
+            <label for="contactName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="contactName" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="contactEmail" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+            <div class="invalid-feedback">Please write a message.</div>
+          </div>
+          <div class="text-end">
+  <button class="btn btn-cta" type="submit">Send Message</button>
+</div>
+
+<div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+  <i class="bi bi-check-circle-fill me-2"></i>
+  <strong>Success!</strong> Your message has been sent. We'll get back to you soon.
+</div>
+        </form>
+      </div>
+    </div>
+
+    <div class="mt-5" data-aos="fade-up">
+      <div class="card border-0 shadow-sm rounded overflow-hidden">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435523.57906930975!2d73.7433662178056!3d31.482168806537725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1761313056744!5m2!1sen!2s" style="width:100%; height:300px; border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="MediCare Hospital Location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-4" style="background-color: var(--teal); color: #212529;">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fa-solid fa-heart-pulse fs-3 me-2" style="color: #212529;"></i>
+          <span class="h4 fw-bold ms-2">MediCare</span>
+        </div>
+        <p class="mb-3">
+          Providing compassionate, advanced healthcare with a patient-first approach since 2010.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-dark" aria-label="Facebook"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="#" class="text-dark" aria-label="Twitter"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="#" class="text-dark" aria-label="Instagram"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="#" class="text-dark" aria-label="LinkedIn"><i class="bi bi-linkedin fs-5"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <h5 class="fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#home" class="text-decoration-none text-dark">Home</a></li>
+          <li class="mb-2"><a href="#doctors" class="text-decoration-none text-dark">Doctors</a></li>
+          <li class="mb-2"><a href="#appointments" class="text-decoration-none text-dark">Appointments</a></li>
+          <li class="mb-2"><a href="#patients" class="text-decoration-none text-dark">Patients</a></li>
+          <li class="mb-2"><a href="#services" class="text-decoration-none text-dark">Services</a></li>
+          <li class="mb-2"><a href="#contact" class="text-decoration-none text-dark">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Contact Us</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2 d-flex align-items-start">
+            <i class="bi bi-geo-alt me-2 mt-1 text-dark"></i>
+            <span>123 MediCare, Lahore, Pakistan</span>
+          </li>
+          <li class="mb-2 d-flex align-items-start">
+            <i class="bi bi-telephone me-2 mt-1 text-dark"></i>
+            <a href="tel:+923001234567" class="text-dark text-decoration-none">+92 300 1234567</a>
+          </li>
+          <li class="mb-2 d-flex align-items-start">
+            <i class="bi bi-envelope me-2 mt-1 text-dark"></i>
+            <a href="mailto:info@medicare.example" class="text-dark text-decoration-none">info@medicare.example</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Stay Updated</h5>
+        <p class="small mb-3">Subscribe for health tips, news, and updates.</p>
+        <form class="d-flex">
+          <input type="email" class="form-control form-control-sm" placeholder="Your email" style="font-size: 0.875rem; border-radius: 50px 0 0 50px;">
+          <button type="submit" class="btn btn-sm" style="background-color: #fff; color: var(--teal); border-radius: 0 50px 50px 0; font-weight: 600;">Go</button>
+        </form>
+      </div>
+    </div>
+
+    <hr class="my-4 opacity-25">
+    <div class="text-center text-dark small">
+      &copy; 2025 MediCare Hospital. All rights reserved. | Designed with love for better healthcare.
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg rounded-3">
+      <div class="modal-header border-0 pb-0">
+        <div>
+          <h5 class="modal-title fw-bold" id="appointmentModalLabel" style="color: var(--teal);">Book an Appointment</h5>
+          <p class="text-muted small mb-0">We’ll contact you to confirm your visit.</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form id="modalApptForm" class="needs-validation" novalidate>
+        <div class="modal-body pt-2">
+          <div class="mb-3">
+            <label class="form-label fw-medium">Doctor</label>
+            <input type="text" id="modalDoctor" class="form-control" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="modalName" class="form-label fw-medium">Full Name</label>
+            <input type="text" id="modalName" name="fullname" class="form-control" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="mb-3">
+            <label for="modalEmail" class="form-label fw-medium">Email</label>
+            <input type="email" id="modalEmail" name="email" class="form-control" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="mb-3">
+            <label for="modalPhone" class="form-label fw-medium">Phone</label>
+            <input type="tel" id="modalPhone" name="phone" class="form-control" required>
+            <div class="invalid-feedback">Please enter your phone number.</div>
+          </div>
+          <input type="hidden" id="modalDept" name="department">
+        </div>
+        <div class="modal-footer border-0 pt-0">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-cta">Confirm Booking</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-buttons">
+  <button id="backToTopBtn" class="btn btn-sm rounded-circle shadow-sm" 
+          style="background-color: var(--teal); color: white; width: 44px; height: 44px; display: none;">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <button id="scrollToBottomBtn" class="btn btn-sm rounded-circle shadow-sm mt-2" 
+          style="background-color: var(--teal); color: white; width: 44px; height: 44px;">
+    <i class="bi bi-arrow-down"></i>
+  </button>
+</div>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+  </script>
+</body>
+</html>
